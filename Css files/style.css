@@ -1,0 +1,288 @@
+body{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027); 
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+}
+
+/* navbar css */
+#navbar{
+  padding: 20px;
+}
+.navdiv{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a{
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+}
+.navdiv li{
+  list-style: none;
+  display: inline-block;
+}
+.navdiv li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+.navdiv button{
+  margin-left: 30px;
+  background-color: #1E1E1E;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+}
+.navdiv button a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* H-indicator slogan css */
+.slogan{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 550px;
+  margin-left: 107px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#S1{
+  background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 52px;
+}
+
+#S2{
+  color: white;
+  font-size: 52px;
+}
+
+.slogan p{
+  color: white;
+  font-size: 18px;
+}
+
+
+
+/* navigation css */
+#Navigation{
+    margin-top: 100px;
+    margin-left: 90px;
+    width:300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 52px;
+    background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container {
+   display: flex;
+   justify-content: space-between;
+  }
+  .text {
+    width: 433px; 
+    height: 306px;
+    margin-left: 90px;
+  }
+  .text p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .image img{
+    width:760px;
+    height: 494px;
+  }
+
+  /* our services css */
+  #OurServices{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 52px;
+    background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .Os{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    background-color: #0B222C;
+    height:213px;
+    width: 1110px;
+    margin-left: 180px;
+    padding-top: 50px;
+  }
+ 
+  .icons img{
+    height: 101px;
+    width: 130px;
+  }
+  
+  /* available test */
+  #Availabletest{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 52px;
+    background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .At{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 580px ;
+    width: 1346px;
+    background-color: #0B222C;
+    margin-left: 80px;
+  }
+  
+  .imgsec1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+  }
+
+  .imgsec2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+  }
+
+  .imgsec1 img,  .imgsec2 img{
+    height: 189px;
+  }
+
+  /* get in touch */
+  #Git{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 52px;
+    background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .git{
+    display: flex;
+    flex-direction: column;
+  }
+  #gitcontainer{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+  }
+  .giticons{
+    display: flex;
+    flex-direction: column;
+    height: 264px;
+    width:284px;
+    background-color: #BFD2F8;
+    border-radius: 15px;
+    font-family: sans-serif ;
+  }
+  .giticons img{
+    width: 50px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .giticons h5{
+    font-size: 18px;
+    margin-left: 30px;
+    color: #1F2B6C;
+  }
+  .giticons p{
+    color: #1F2B6C;
+    font-size: 16px;
+    margin-left: 30px;
+  }
+
+  /* footercss */
+.footer{
+  margin-top: 50px;
+  height: 1441px;
+  height: 427px;
+  background:linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#firstf{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+}
+#firstf p{
+  color: white;
+  font-family:sans-serif;
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-weight: 600px;
+}
+.ficons{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#email{
+  height: 50px;
+  width: 286px;
+  background-color: #BFD2F8;
+  padding-left: 20px;
+  outline: none;
+  border: 0px;
+}
+::placeholder{
+  color:#1F2B6C ;
+  font-size: 16px;
+  font-family:sans-serif;
+}
+
+#emailsec{
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  background-color: #BFD2F8;
+
+}
+#emailsec img{
+  width: 35px;
+  margin-right: 50px;
+}
+#secf{
+  width:1106px;
+  height: 2px;
+  background-color: #BFD2F8;
+  margin-top: 20px;
+}
+.thirdf{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 620px;
+}
+.socialicon{
+  display: flex;
+  gap: 5px;
+}

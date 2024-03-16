@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H-indicator</title>
+    <style>
+        .structure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+            width: 50%;
+            margin-left: 22rem;
+            
+        }
+
+        .first {
+            display: flex;
+        }
+
+        .first div {
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .highlighted {
+            background-color: yellow; /* or any other color you prefer */
+        }
+    </style>
+</head>
+<body>
+    <div class="structure">
+        <p>Hello</p>
+        <div class="first">
+            <div class="R1">Room1</div>
+            <section>
+                <div class="R2" style="height: 180px;">Room2</div>
+                <div class="R3">Room3</div>
+            </section>
+            <section>
+                <div class="R4" style="height: 200px;">Room4</div>
+                <div class="E1" style="height: 50px; border: none;">Exit</div>
+
+            </section>
+           
+            <section class="2-rooms">
+                <div class="R5" style="height: 50px;">Room5</div>
+                <div class="R6" style="height: 50px;">Room6</div>
+            </section>
+        </div>
+    </div>
+    <form id="roomForm">
+        <label for="rooms1">Choose a room:</label>
+        <select id="rooms1" name="rooms1">
+            <option value="R1">Room 1</option>
+            <option value="R2">Room 2</option>
+            <option value="R3">Room 3</option>
+            <option value="R4">Room 4</option>
+            <option value="R5">Room 5</option>
+            <option value="R6">Room 6</option>
+            <option value="E1">Exit</option>
+        </select>
+        <br><br>
+        <label for="rooms2">Choose a room:</label>
+        <select id="rooms2" name="rooms2">
+            <option value="R1">Room 1</option>
+            <option value="R2">Room 2</option>
+            <option value="R3">Room 3</option>
+            <option value="R4">Room 4</option>
+            <option value="R5">Room 5</option>
+            <option value="R6">Room 6</option>
+            <option value="E1">Exit</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <script src="/navigation.js"></script>
+
+    <h4></h4>
+</body>
+</html>

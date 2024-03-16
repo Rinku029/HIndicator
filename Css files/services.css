@@ -1,0 +1,360 @@
+body{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+}
+
+/* navbar css */
+#navbar{
+    padding: 20px;
+}
+.navdiv{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+.navdiv li{
+    list-style: none;
+    display: inline-block;
+}
+.navdiv li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.navdiv button{
+    margin-left: 30px;
+    background-color: #1E1E1E;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.navdiv button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*Visitor Services css */
+.services{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.services h1{
+    margin-left: 115px;
+    font-size:52px;
+    background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 115px;
+}
+
+.content h3{
+    font-size: 36px;
+    color: #FFFFFF;
+    width: 552px;
+    height: 42px;
+}
+
+.content p{
+    height: 238px;
+    width: 628px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.simg img{
+    width: 597px;
+    height: 606px;
+}
+
+.bullet{
+    width: 628px;
+    height: 156px;
+    color: #0386FF;
+    font-size: 26px;
+}
+
+/* Cards and Flowers */
+.caf{
+    height: 316px;
+    width: 1346px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 53px;
+    background-color:#0B222C ;
+  }
+  
+  .caf h4{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 32px;
+      background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-left: 110px;
+  }
+  
+  .caf p{
+      font-size: 24px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+/* Wifi Use */
+.wifi{
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 891px;
+    width: 1346px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 100px;
+    margin-left: 53px;
+    background-color:#0B222C ;
+    
+  }
+  
+  .wifi h4{
+      font-size: 32px;
+      background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-left: 110px;
+  }
+  
+  .wifi p{
+      font-size: 24px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+  .wifi b{
+      font-size: 28px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+  .wifi li{
+      font-size: 24px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+
+  /* Food */
+.food{
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 483px;
+    width: 1346px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 53px;
+    background-color:#0B222C ;
+  }
+  
+  .food h4{
+      font-size: 32px;
+      background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-left: 110px;
+  }
+  
+  .food p{
+      font-size: 24px;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+  .food b{
+      font-size: 28px;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+  .food li{
+      font-size: 24px;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+  /* Overnigh-stay css */
+.ons{
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 700px;
+    width: 1346px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 100px;
+    margin-left: 53px;
+    background-color:#0B222C ;
+    
+  }
+  
+  .ons h4{
+      font-size: 32px;
+      background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-left: 110px;
+  }
+  
+  .ons p{
+      font-size: 24px;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+  .ons b{
+      font-size: 28px;
+      color: #FFFFFF;
+  }
+
+  .ons li{
+      font-size: 24px;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+   /* Park css */
+.park{
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 430px;
+    width: 1346px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 53px;
+    background-color:#0B222C ;
+  }
+  
+  .park h4{
+      font-size: 32px;
+      background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-left: 110px;
+  }
+  
+  .park p{
+      font-size: 24px;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+  .park b{
+      font-size: 28px;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+  .park li{
+      font-size: 24px;
+      color: #FFFFFF;
+      margin-left: 110px;
+  }
+
+  /* footercss */
+.footer{
+    margin-top: 50px;
+    height: 1441px;
+    height: 427px;
+    background:linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #firstf{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+  }
+   
+  #firstf p{
+    color: white;
+    font-family:sans-serif;
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-weight: 600px;
+  }
+  
+  .ficons{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  #email{
+    height: 50px;
+    width: 286px;
+    background-color: #BFD2F8;
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  ::placeholder{
+    color:#1F2B6C ;
+    font-size: 16px;
+    font-family:sans-serif;
+  }
+  
+  #emailsec img{
+    margin-right: 50px;
+  }
+  
+  #secf{
+    width:1106px;
+    height: 2px;
+    background-color: #BFD2F8;
+    margin-top: 20px;
+  }
+  
+  
+  .thirdf{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 620px;
+  }
+  
+  .socialicon{
+    display: flex;
+    gap: 5px;
+  }
