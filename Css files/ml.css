@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* logo and head css */
+body{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+}
+
+.logo{
+    color: #ffff;
+    font-size: 24px;
+    margin-top:39px;
+    margin-left: 117px;
+}
+
+.mlhead{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 40px;
+    margin-left: 117px;
+    font-size: 35px;
+    background: linear-gradient(90deg,rgba(247, 35, 253, 1)0%,rgba(174, 44, 244, 1)50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* mlcontent css */
+.ml{
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+.mlinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mlcontent{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:25px ;
+    background-color: #0B222C;
+    color: #ffff;
+    width: 990px;
+    height: 49px;
+    margin-left: 117px;
+    padding-left: 10px;
+}
+
+.boxes{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0B222C;
+    display: flex;
+    justify-content: center;
+    height: 49px;
+    width: 214px;
+    margin-right: 100px;
+    gap: 20px;
+}
+
+.boxes label{
+    font-size: 25px;
+    color: white;
+    margin-top: 3px;
+}
+
+.line{
+    background-color:#ffff;
+    width: 2px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+/* submit css */
+.mlsubmit{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: end;
+}
+
+.mlsubmit button{
+    font-size: 25px;
+    width: 214px;
+    height: 49px;
+    background-color: #0B222C;
+    color: #ffff;
+    border: none;
+    margin-right: 100px;
+    margin-top: 50px;
+}
